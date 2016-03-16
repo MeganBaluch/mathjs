@@ -1,6 +1,6 @@
 <h1>My First Experience with MathJS</h1>
 
-Upon looking through the repository a little bit, I thought mathjs seemed like a super useful library for being able to evaluate math equations in javascript code.
+Upon looking through the repository a little bit, I thought mathjs seemed like a super useful library for being able to evaluate math equations in JavaScript and Node.js. It has the ability to work with numbers, big numbers, complex numbers, units, and matrices in a simple way. It's open source and is updated regularly, at the time of this post, the last commit was 12 days ago. Josdejong is extremely active in the repository and is always there to help out newcomers. 
 
 I first forked the repo from Josdejong and then cloned it into my local repository, I'm currently working on a branch called Blog
 
@@ -10,7 +10,7 @@ After changing into the mathjs folder, I ran...
 <b>npm install</b>
 ![Install](http://i.imgur.com/9BZNuHW.png)
 
-followed by 
+followed by... 
 
 <b>npm run build</b>
 
@@ -26,7 +26,7 @@ After running what seemed like thousands of tests, one of them actually failed, 
 
 ![Test fail](http://i.imgur.com/JJTaXSP.jpg)
 
-My next step was to go through using jsfiddle and play around with the commands a bit. It took a little bit to get used to the syntax, but by following along with examples on their website, https://jsfiddle.net, I picked up on it pretty quickly.
+My next step was to go through using jsfiddle and play around with the commands a bit. It took a little bit to get used to the syntax, but by following along with examples on their website, http://mathjs.org/examples/index.html, I picked up on it pretty quickly.
 
 ![jFiddle Test](http://i.imgur.com/tRNK1yX.png)
 
