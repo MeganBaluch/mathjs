@@ -12,8 +12,9 @@ After changing into the mathjs folder, I ran...
 followed by 
 
 <b>npm run build</b>
+![ScreenShot](https://raw.github.com/MeganBaluch/mathjs/master/"Run Build.png")
 
-[photo]
+![Build screenshot](/mathjs/Run Build.png?raw=true)
 
 Although it took a bit to build, but that could just have been my internet, it seemed to build correctly.
 
