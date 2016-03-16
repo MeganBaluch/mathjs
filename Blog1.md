@@ -18,6 +18,8 @@ followed by...
 
 Although it took a bit to build, but that could just have been my internet, it seemed to build correctly.
 
+<b>After thought:</b> When I ran this installation, I neglected to add the -g flag during my npm install. This gives me the ability to run it as a command line application. Which for testing purposes, I should have done.
+
 I then ran throug the test for the library, with first using the command...
 
 <b>npm test</b> and <b>npm run coverage</b>
