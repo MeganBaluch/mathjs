@@ -1,6 +1,6 @@
 <h1>My First Experience with MathJS</h1>
 
-Upon looking through the repository a little bit, I thought mathjs seemed like a super useful library for being able to evaluate math equations in JavaScript and Node.js. It has the ability to work with numbers, big numbers, complex numbers, units, and matrices in a simple way. It's open source and is updated regularly, at the time of this post, the last commit was 12 days ago. Josdejong is extremely active in the repository and is always there to help out newcomers. 
+Upon looking through the repository a little bit, I thought MathJS seemed like a super useful library for being able to evaluate math equations in JavaScript and Node.js (It can also be run from the command line). It has the ability to work with numbers, big numbers, complex numbers, units, and matrices in a simple way. It's open source and is updated regularly, at the time of this post, the last commit was 12 days ago. Josdejong is extremely active in the repository and is always there to help out newcomers. 
 
 I first forked the repo from Josdejong and then cloned it into my local repository, I'm currently working on a branch called Blog
 
@@ -28,18 +28,20 @@ After running what seemed like thousands of tests, one of them actually failed, 
 
 ![Test fail](http://i.imgur.com/JJTaXSP.jpg)
 
-My next step was to go through using jsfiddle and play around with the commands a bit. It took a little bit to get used to the syntax, but by following along with examples on their website, http://mathjs.org/examples/index.html, I picked up on it pretty quickly.
+My next step was to go through using jsfiddle and play around with the commands a bit. It took a little bit to get used to the syntax, but by following along with examples on their website, http://mathjs.org/examples/index.html, I picked up on it pretty quickly. I pulled examples from the various categories on their website (since alot of the ability was math equations I didn't necessarily understand).
 
 ![jFiddle Test](http://i.imgur.com/tRNK1yX.png)
 
-My next step is to hopefully be able to contribute to the code! Fortunately, a fellow classmate stumbled upon an issue with mathjs and asked for suggestions from the community on how he would go about fixing it.
+A fellow classmate stumbled upon an issue with mathjs and asked for suggestions from the community on how he would go about fixing it.
 With his permission, I'm going to attempt to fix the bug. 
 
 ![Bug](http://i.imgur.com/DB3oPlx.png)
 
-I plan on fixing this by checking the parameters to make sure the numbers are scalars, and if they're not, throw an exception
+I plan on fixing this by checking the parameters to make sure the numbers are scalars, and if they're not, throw an exception. Currently, I tried duplicating the error that was screenshotted above. I tried to do this from the command line, but wasn't necessarily successful. I was hoping the command line interface would have the ability to understand that if a line was not complete, to add another prompt. This would give me the ability to declare a variable, then use it, like in the bug. This however wasn't too successful, as soon as I hit enter, and its a line MathJS doesn't like, it sends out an error. 
 
-I'll update on how this goes!
+![Command line](http://i.imgur.com/sYKsLuE.png)
+
+As of the writing of this blog, I was not able to successfully duplicate the bug through the command line. My next step is going to be to use Node.js to duplicate it that way when I make changes I'm still able to retest the code in my Node program. 
 
 
 
