@@ -13,14 +13,11 @@ After changing into the mathjs folder, I ran...
 followed by... 
 
 <b>npm run build</b>
-
 ![Build](http://i.imgur.com/TTq3iw4.jpg)
 
 Although it took a bit to build, but that could just have been my internet, it seemed to build correctly.
 
-<b>After thought:</b> When I ran this installation, I neglected to add the -g flag during my npm install. This gives me the ability to run it as a command line application. Which for testing purposes, I should have done.
-
-I then ran throug the test for the library, with first using the command...
+I then ran through the test for the library, with first using the command...
 
 <b>npm test</b> and <b>npm run coverage</b>
 
@@ -42,6 +39,8 @@ I plan on fixing this by checking the parameters to make sure the numbers are sc
 ![Command line](http://i.imgur.com/sYKsLuE.png)
 
 As of the writing of this blog, I was not able to successfully duplicate the bug through the command line. My next step is going to be to use Node.js to duplicate it that way when I make changes I'm still able to retest the code in my Node program. 
+
+<b>After thought:</b> When I ran this installation, I neglected to add the -g flag during my npm install. This gives me the ability to run it as a command line application. Which for testing purposes, I should have done.
 
 
 
