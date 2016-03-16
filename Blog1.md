@@ -35,5 +35,7 @@ With his permission, I'm going to attempt to fix the bug.
 
 I plan on fixing this by checking the parameters to make sure the numbers are scalars, and if they're not, throw an exception
 
+I'll update on how this goes!
+
 
 
